@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{overflow-x: hidden;
+	margin:0;
+	color:#f48000;
+	background-color: #1f1f1f;
+	font:600 16px/18px 'Roboto',sans-serif;
+	height: 1300px;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+.Footer_Class {
+	position: absolute;
+	width: 1920px;
+	height: 386px;
+	left: 0px;
+	top: 867px;
+	overflow: visible;
+}
+.Footer_Left_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Left_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 0px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Footer_Right_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Right_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 1055px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.MI_Footer_Logo_Class {
+	position: absolute;
+	width: 109px;
+	height: 109px;
+	left: 906px;
+	top: 0px;
+	overflow: visible;
+}
+.SUPPORT_Class {
+	left: 228px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.CONTACT_US_Class {
+	left: 1560px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.FAQ_Class {
+	left: 270px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Number_Class {
+	left: 1602px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Phone_Call_Class {
+	fill: transparent;
+	stroke: rgba(163,163,163,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Phone_Call {
+	overflow: visible;
+	position: absolute;
+	width: 28.159px;
+	height: 28.207px;
+	left: 1562px;
+	top: 256px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Instagram_Class {
+	fill: rgba(222,222,222,1);
+}
+.Instagram {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 39.991px;
+	left: 778.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Facebook_Class {
+	fill: rgba(222,222,222,1);
+}
+.Facebook {
+	overflow: visible;
+	position: absolute;
+	width: 21.423px;
+	height: 40px;
+	left: 885.359px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Youtube_Class {
+	fill: rgba(222,222,222,1);
+}
+.Youtube {
+	overflow: visible;
+	position: absolute;
+	width: 56.889px;
+	height: 40px;
+	left: 966.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Twitter_Class {
+	fill: rgba(222,222,222,1);
+}
+.Twitter {
+	overflow: visible;
+	position: absolute;
+	width: 49.25px;
+	height: 40px;
+	left: 1092.791px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Copyright_Class {
+	left: 611px;
+	top: 346px;
+	position: absolute;
+	overflow: visible;
+	width: 699px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(222,222,222,0.749);
+}
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:600px;
+	min-height:650px;
+	position:relative;
+	background:url(https://image.freepik.com/free-photo/phone-charging-powerbank-charges-smartphone-cellphone-with-energy-bank-depth-field-power-bank_150455-693.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	top: 120px;
+	
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:#00000094;
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#f48000;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#ffffffb5;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#f48000;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#f48000;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+.Nav_Class {
+	position: absolute;
+	width: 1834px;
+	height: 65px;
+	left: 35px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_logo_Class {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Products_Class {
+	left: 1565px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Cart_Class {
+	position: absolute;
+	width: 50px;
+	height: 42.625px;
+	left: 1689px;
+	top: 12.375px;
+	overflow: visible;
+}
+.Path_1_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 16.45px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 44px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_3_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 53px;
+	height: 36.627px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Profile_Class {
+	fill: #f48000;
+}
+.Profile {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1744px;
+	top: 14px;
+	transform: matrix(1,0,0,1,0,0);
+}

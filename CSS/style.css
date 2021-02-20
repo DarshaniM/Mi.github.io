@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	overflow-x: hidden;
+}
+.mediaViewInfo {
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Homepage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	font-family: "Roboto";
+}
+.Homepage_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2710px;
+	background-color: rgba(31,31,31,1);
+	overflow: hidden;
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Footer_Class {
+	position: absolute;
+	width: 1920px;
+	height: 386px;
+	left: 0px;
+	top: 2247px;
+	overflow: visible;
+}
+.Footer_Left_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Left_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 0px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Footer_Right_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Right_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 1055px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.MI_Footer_Logo_Class {
+	position: absolute;
+	width: 109px;
+	height: 109px;
+	left: 906px;
+	top: 0px;
+	overflow: visible;
+}
+.SUPPORT_Class {
+	left: 228px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.CONTACT_US_Class {
+	left: 1560px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.FAQ_Class {
+	left: 270px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Number_Class {
+	left: 1602px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Phone_Call_Class {
+	fill: transparent;
+	stroke: rgba(163,163,163,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Phone_Call {
+	overflow: visible;
+	position: absolute;
+	width: 28.159px;
+	height: 28.207px;
+	left: 1562px;
+	top: 256px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Instagram_Class {
+	fill: rgba(222,222,222,1);
+}
+.Instagram {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 39.991px;
+	left: 778.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Facebook_Class {
+	fill: rgba(222,222,222,1);
+}
+.Facebook {
+	overflow: visible;
+	position: absolute;
+	width: 21.423px;
+	height: 40px;
+	left: 885.359px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Youtube_Class {
+	fill: rgba(222,222,222,1);
+}
+.Youtube {
+	overflow: visible;
+	position: absolute;
+	width: 56.889px;
+	height: 40px;
+	left: 966.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Twitter_Class {
+	fill: rgba(222,222,222,1);
+}
+.Twitter {
+	overflow: visible;
+	position: absolute;
+	width: 49.25px;
+	height: 40px;
+	left: 1092.791px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Copyright_Class {
+	left: 611px;
+	top: 346px;
+	position: absolute;
+	overflow: visible;
+	width: 699px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(222,222,222,0.749);
+}
+.Collection_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1124px;
+	left: 0px;
+	top: 1080px;
+	overflow: visible;
+}
+.Collection_Background_Class {
+	fill: rgba(69,69,69,1);
+}
+.Collection_Background {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1124px;
+	left: 0px;
+	top: 0px;
+}
+.Collection_Powerbank_Class {
+	position: absolute;
+	width: 862px;
+	height: 512px;
+	left: 995px;
+	top: 371px;
+	overflow: visible;
+	display: none;
+}
+
+.Entire_Range_Class {
+	position: absolute;
+	width: 573.327px;
+	height: 67px;
+	left: 144px;
+	top: 939px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+}
+.View_Our_Entire_Range_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(244,128,0,1);
+}
+.Entire_Range_Arrow_Class {
+	fill: rgba(244,128,0,1);
+}
+.Entire_Range_Arrow {
+	overflow: visible;
+	position: absolute;
+	width: 22.871px;
+	height: 40px;
+	left: 525.456px;
+	top: 18.151px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Features_Class {
+	position: absolute;
+	width: 719px;
+	height: 412px;
+	left: 144px;
+	top: 418px;
+	overflow: visible;
+}
+.Feature_1_Class {
+	left: 445px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 235px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(222,222,222,1);
+}
+.Feature_2_Class {
+	left: 284px;
+	top: 120px;
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(222,222,222,1);
+}
+.Feature_3_Class {
+	left: 0px;
+	top: 235px;
+	position: absolute;
+	overflow: visible;
+	width: 678px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(222,222,222,1);
+}
+.Feature_4_Class {
+	left: 88px;
+	top: 350px;
+	position: absolute;
+	overflow: visible;
+	width: 592px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(222,222,222,1);
+}
+.Feature_Line_Class {
+	fill: transparent;
+	stroke: rgba(244,128,0,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Feature_Line {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 412px;
+	left: 719px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.International_Collection_Headi_Class {
+	position: absolute;
+	width: 791.5px;
+	height: 200.5px;
+	left: 71.5px;
+	top: 109px;
+	overflow: visible;
+}
+.International_Collection_Class {
+	left: 31.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 761px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	color: rgba(255,255,255,1);
+}
+.Heading_Line_Class {
+	fill: transparent;
+	stroke: rgba(244,128,0,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Heading_Line {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 188.5px;
+	left: 0px;
+	top: 12px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Landing_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Landing_Image_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Scroll_Down_Class {
+	fill: rgba(255,255,255,1);
+}
+.Scroll_Down {
+	overflow: visible;
+	position: absolute;
+	width: 70px;
+	height: 50px;
+	left: 925.121px;
+	top: 986px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Landing_Logo_Class {
+	position: absolute;
+	width: 649px;
+	height: 649px;
+	left: 1178px;
+	top: 341px;
+	overflow: visible;
+}
+.Landing_Logo_Circle_Class {
+	fill: transparent;
+	stroke: rgba(244,128,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-dasharray: 5;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Landing_Logo_Circle {
+	position: absolute;
+	overflow: visible;
+	width: 649px;
+	height: 649px;
+	left: 0px;
+	top: 0px;
+}
+.MI_Landing_Logo__Class {
+	filter: blur(0px);
+	position: absolute;
+	width: 352px;
+	height: 352px;
+	left: 149px;
+	top: 149px;
+	overflow: visible;
+}
+.Nav_Class {
+	position: absolute;
+	width: 1834px;
+	height: 65px;
+	left: 35px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_logo_Class {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Products_Class {
+	left: 1565px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Cart_Class {
+	position: absolute;
+	width: 50px;
+	height: 42.625px;
+	left: 1689px;
+	top: 12.375px;
+	overflow: visible;
+}
+.Path_1_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 16.45px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 44px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_3_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 53px;
+	height: 36.627px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Profile_Class {
+	fill: rgba(255,255,255,1);
+}
+.Profile {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1744px;
+	top: 14px;
+	transform: matrix(1,0,0,1,0,0);
+}

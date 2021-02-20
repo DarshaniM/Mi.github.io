@@ -1,0 +1,870 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {background-color: #1f1f1f;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body{color: #dedede;
+  overflow-x: hidden;
+  height: 2750px;
+}
+@-webkit-keyframes openUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes openUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.Footer_Class {
+	position: absolute;
+	width: 1920px;
+	height: 386px;
+	left: 0px;
+	top: 2305px;
+	overflow: visible;
+}
+.Footer_Left_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Left_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 0px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Footer_Right_Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Footer_Right_Line {
+	overflow: visible;
+	position: absolute;
+	width: 865px;
+	height: 3px;
+	left: 1055px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.MI_Footer_Logo_Class {
+	position: absolute;
+	width: 109px;
+	height: 109px;
+	left: 906px;
+	top: 0px;
+	overflow: visible;
+}
+.SUPPORT_Class {
+	left: 228px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.CONTACT_US_Class {
+	left: 1560px;
+	top: 167px;
+	position: absolute;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(222,222,222,1);
+}
+.FAQ_Class {
+	left: 270px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Number_Class {
+	left: 1602px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(222,222,222,0.749);
+}
+.Phone_Call_Class {
+	fill: transparent;
+	stroke: rgba(163,163,163,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Phone_Call {
+	overflow: visible;
+	position: absolute;
+	width: 28.159px;
+	height: 28.207px;
+	left: 1562px;
+	top: 256px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Instagram_Class {
+	fill: rgba(222,222,222,1);
+}
+.Instagram {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 39.991px;
+	left: 778.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Facebook_Class {
+	fill: rgba(222,222,222,1);
+}
+.Facebook {
+	overflow: visible;
+	position: absolute;
+	width: 21.424px;
+	height: 40px;
+	left: 885.359px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Youtube_Class {
+	fill: rgba(222,222,222,1);
+}
+.Youtube {
+	overflow: visible;
+	position: absolute;
+	width: 56.889px;
+	height: 40px;
+	left: 966.494px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Twitter_Class {
+	fill: rgba(222,222,222,1);
+}
+.Twitter {
+	overflow: visible;
+	position: absolute;
+	width: 49.25px;
+	height: 40px;
+	left: 1092.791px;
+	top: 167px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Copyright_Class {
+	left: 611px;
+	top: 346px;
+	position: absolute;
+	overflow: visible;
+	width: 699px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(222,222,222,0.749);
+}
+.Nav_Class {
+	position: absolute;
+	width: 1834px;
+	height: 65px;
+	left: 35px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_logo_Class {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Homepage;
+	cursor: pointer;
+}
+.Products_ci_Class {
+	left: 1565px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(244,128,0,1);
+}
+.Cart_Class {
+	position: absolute;
+	width: 50px;
+	height: 42.625px;
+	left: 1689px;
+	top: 12.375px;
+	overflow: visible;
+}
+.Path_1_ck_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1_ck {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 16.45px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2_cl_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_cl {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 44px;
+	top: 39.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_3_cm_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_3_cm {
+	overflow: visible;
+	position: absolute;
+	width: 53px;
+	height: 36.627px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Profile_Class {
+	fill: rgba(255,255,255,1);
+}
+.Profile {
+	overflow: visible;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1744px;
+	top: 14px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Claims_Class {
+	position: absolute;
+	width: 1920px;
+	height: 160px;
+	left: 0px;
+	top: 2114px;
+	overflow: visible;
+}
+.Claim_Rectangle_Base_Class {
+	fill: rgba(128,128,128,1);
+}
+.Claim_Rectangle_Base {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 160px;
+	left: 0px;
+	top: 0px;
+}
+.Replacement_Icon_Class {
+	fill: rgba(255,255,255,1);
+}
+.Replacement_Icon {
+  background-color: #808080;
+	overflow: visible;
+	position: absolute;
+	width: 106px;
+	height: 106px;
+	left: 86px;
+	top: 27px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Easy_replacement_Class {
+  background-color: #808080;
+	left: 226px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(222,222,222,1);
+}
+.ID7-day_policy_Class {
+  background-color: #808080;
+	left: 226px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(222,222,222,0.588);
+}
+.Credit_Card_Icon_Class {
+	fill: rgba(255,255,255,1);
+}
+.Credit_Card_Icon {
+  background-color: #808080;
+	overflow: visible;
+	position: absolute;
+	width: 106px;
+	height: 79.5px;
+	left: 699px;
+	top: 37.25px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Secure_Payments_Class {
+  background-color: #808080;
+	left: 839px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 309px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(222,222,222,1);
+}
+.Cards_Wallets_EMI__COD_Class {
+  background-color: #808080;
+	left: 839px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(222,222,222,0.588);
+}
+.Map_Icon_Class {
+	fill: rgba(255,255,255,1);
+}
+.Map_Icon {
+  background-color: #808080;
+	overflow: visible;
+	position: absolute;
+	width: 106px;
+	height: 94.222px;
+	left: 1418px;
+	top: 22.528px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Vast_Network_Class {
+  background-color: #808080;
+	left: 1558px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(222,222,222,1);
+}
+.ID1500_MI_Centers_Class {
+  background-color: #808080;
+	left: 1560px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 259px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(222,222,222,0.588);
+}
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background:#dedede;
+  border: 1px solid black;
+  transition: all 0.1s;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+button .fa {
+  font-size: 1em !important;
+  vertical-align: middle;
+}
+button:hover {
+  color: white;
+  background:#f48000;
+}
+
+input {
+  display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0.5em;
+  margin: 0.5em 0.5em 0.5em 0;
+  width: 50px;
+  background: white;
+  border: 1px solid black;
+  transition: all 0.1s;
+  font-size: 14px;
+}
+
+label {
+  font-size: 0.75em;
+  margin-right: 0.5em;
+}
+
+.checkout-area table {
+  margin: 0 auto;
+  padding: 0.5em;
+  width: 100%;
+  max-width: 40em;
+  text-align: left;
+}
+.checkout-area table th, .checkout-area table td {
+  padding: 0 0.25em;
+}
+@media (max-width: 600px) {
+  .checkout-area table th:nth-child(3), .checkout-area table td:nth-child(3) {
+    display: none;
+  }
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.vert-bottom {
+  vertical-align: bottom;
+}
+
+.vert-middle {
+  vertical-align: middle;
+}
+
+.main-wrapper .header {
+  position: relative;
+  background-color: #454545;
+  background-size: cover;
+  height: 200px;
+  width: 100vw;
+  box-shadow: inset -1px -3px 5px #444444, inset 1px 3px 5px #444444;
+  top: 65px;
+}
+.main-wrapper .header h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgba(244,128,0,1);
+  font-size: 4em;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5), -1px -3px 5px rgba(0, 0, 0, 0.5);
+  background-color: #454545;
+}
+.main-wrapper #vue {
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+}
+.main-wrapper #vue .cart {
+  position: absolute;
+  right: 0em;
+  top: 17em;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  z-index: 1;
+}
+.main-wrapper #vue .cart .fa-shopping-cart, .main-wrapper #vue .cart .cart-size {
+  cursor: pointer;
+  font-size: 1.25em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.main-wrapper #vue .cart .fa-shopping-cart {
+  padding: 1em 1em 1em 0;
+}
+.main-wrapper #vue .cart .cart-size {
+  padding: 1em 0 1em 1em;
+}
+.main-wrapper #vue .cart .cart-items {
+  padding: 0 1em 2em 1em;
+}
+.main-wrapper #vue .cart .cart-items .cartTable {
+  width: 20em;
+}
+.main-wrapper #vue .cart .cart-items .cartImage {
+  width: 4em;
+  height: 4em;
+  margin: 0.5em auto;
+  position: relative;
+  cursor: pointer;
+}
+.main-wrapper #vue .cart .cart-items .cartImage:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  transition: all 0.1s;
+}
+.main-wrapper #vue .cart .cart-items .cartImage i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  z-index: 1;
+  transition: all 0.25s;
+}
+.main-wrapper #vue .cart .cart-items .cartImage:hover i {
+  text-shadow: 1px 2px 5px black;
+}
+.main-wrapper #vue .cart .cart-items .cartImage:hover:after {
+  background: rgba(0, 0, 0, 0.5);
+}
+.main-wrapper #vue .cart .cart-items .cartImage:active i {
+  text-shadow: 0px 0px 1px black;
+}
+.main-wrapper #vue .cart .cart-items .cartSubTotal {
+  border-top: 1px solid white;
+  font-size: 1.25em;
+}
+.main-wrapper #vue .cart .cart-items .clearCart {
+  float: left;
+  margin-top: 2em;
+  margin-bottom: 1.25em;
+}
+.main-wrapper #vue .cart .cart-items .checkoutCart {
+  float: right;
+  margin-top: 2em;
+  margin-bottom: 1.25em;
+}
+.main-wrapper #vue .products {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80em;
+}
+.main-wrapper #vue .products .product {
+  display: inline-block;
+  margin: 0.75em;
+  width: 100%;
+  max-width: 18em;
+}
+.main-wrapper #vue .products .product .image {
+  width: 18em;
+  height: 18em;
+  margin-bottom: 0.5em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+@media (max-width: 600px) {
+  .main-wrapper #vue .products .product .image {
+    width: 100vw;
+    height: 100vw;
+  }
+}
+.main-wrapper #vue .products .product .image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.25s;
+}
+.main-wrapper #vue .products .product .image:after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: white;
+  pointer-events: none;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s;
+}
+.main-wrapper #vue .products .product .image:hover {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.main-wrapper #vue .products .product .image:hover:before {
+  opacity: 1;
+}
+.main-wrapper #vue .products .product .image:hover:after {
+  top: 50%;
+}
+.main-wrapper #vue .products .product .name {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.main-wrapper #vue .products .product .description {
+  font-style: italic;
+}
+.main-wrapper #vue .products .product .price {
+  font-weight: bold;
+}
+.main-wrapper #vue .modalWrapper {
+  position: relative;
+}
+.main-wrapper #vue .modalWrapper .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+.main-wrapper #vue .modalWrapper .prevProduct, .main-wrapper #vue .modalWrapper .nextProduct {
+  position: fixed;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 5;
+}
+.main-wrapper #vue .modalWrapper .prevProduct {
+  left: calc(50% - 9.5em);
+}
+.main-wrapper #vue .modalWrapper .nextProduct {
+  right: calc(50% - 9.5em);
+}
+.main-wrapper #vue .modalWrapper .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2em;
+  text-align: center;
+  max-height: calc(100% - 2em);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-animation: openUp 0.1s;
+          animation: openUp 0.1s;
+  z-index: 3;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.main-wrapper #vue .modalWrapper .modal .close {
+  position: fixed;
+  top: -0.5em;
+  right: -0.5em;
+  cursor: pointer;
+  padding: 1em;
+}
+.main-wrapper #vue .modalWrapper .modal .imageWrapper {
+  width: 25em;
+  height: 25em;
+  margin: 0.5em auto;
+  overflow: hidden;
+}
+.main-wrapper #vue .modalWrapper .modal .imageWrapper .image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s;
+  z-index: 4;
+  cursor: crosshair;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage {
+  flex-grow: 1;
+  margin: 0.5em 1em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 25%;
+  height: auto;
+  position: relative;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 75%;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage:nth-of-type(1n) {
+  margin-left: 0;
+}
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage:nth-of-type(4n) {
+  margin-right: 0;
+}
+.main-wrapper #vue .modalWrapper .modal .name {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.main-wrapper #vue .modalWrapper .modal .description {
+  font-style: italic;
+}
+.main-wrapper #vue .modalWrapper .modal .details {
+  max-width: 25em;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+.main-wrapper #vue .modalWrapper .modal .price {
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+@media (max-width: 600px) {
+  .main-wrapper #vue .cart, .main-wrapper #vue .cart .cartTable {
+    width: 100% !important;
+  }
+  .main-wrapper #vue .products {
+    text-align: left;
+  }
+  .main-wrapper #vue .products .product {
+    display: block;
+  }
+  .main-wrapper #vue .products .product .image {
+    width: calc(100vw - 2.5em);
+    height: calc(100vw - 2.5em);
+  }
+  .main-wrapper #vue .modalWrapper .prevProduct, .main-wrapper #vue .modalWrapper .nextProduct {
+    display: none;
+  }
+  .main-wrapper #vue .modalWrapper .modal.checkout {
+    width: 100%;
+  }
+  .main-wrapper #vue .modalWrapper .modal .imageWrapper {
+    width: calc(100vw - 4em);
+    height: calc(100vw - 4em);
+  }
+}
